@@ -68,7 +68,16 @@ p {
 }
 
 .post img {
-    height: 363px;
     margin: 15px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.43);
+    max-width: 59%;
+    margin-left: calc(20% - 10px);
+}
+
+@media screen and (min-width: 500px) {
+	.post img {
+	    max-width: none;
+	    height: 300px;
+	    margin-left: 15px;
+	}
 }
