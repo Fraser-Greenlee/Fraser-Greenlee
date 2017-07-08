@@ -110,6 +110,7 @@ div > img {
     margin-top: 15px;
     margin-bottom: 15px;
     box-sizing: border-box;
+    max-width: 300px;
 }
 
 a {
@@ -136,4 +137,5 @@ div > a {
 footer {
     padding: 2px;
     background: linear-gradient(to right,#fc636b 0,#ff6d92 60%,#fd9a00 100%);
+}%,#fd9a00 100%);
 }
