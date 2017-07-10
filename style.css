@@ -25,6 +25,9 @@ header {
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(27,36,50,0.15);
     text-align: left;
+    white-space: nowrap;
+    overflow-x: hidden;
+    font-size: 0px;
 }
 
 body {
@@ -45,7 +48,7 @@ header > h1 {
     font-weight: 400;
     padding: 30px;
     padding-left: 25px;
-    display: block;
+    display: inline-block;
     margin: 0px;
 }
 
@@ -113,7 +116,7 @@ div > img {
     max-width: 300px;
 }
 
-a {
+div > a {
     font-size: 17px;
     text-decoration: none;
     color: #0079ff;
@@ -137,5 +140,12 @@ div > a {
 footer {
     padding: 2px;
     background: linear-gradient(to right,#fc636b 0,#ff6d92 60%,#fd9a00 100%);
-}%,#fd9a00 100%);
+}
+
+
+header img {
+  width: 30px;
+  display: inline-block;
+  vertical-align: -2px;
+  margin-right: 15px;
 }
