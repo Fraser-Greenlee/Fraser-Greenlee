@@ -30,3 +30,8 @@ img {
 span a {
     margin-right: 30px;
 }
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 0.1em;
+}
