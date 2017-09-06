@@ -17,7 +17,6 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -40,7 +39,7 @@ header:after {
   content: "";
   display: block;
   padding: 2px;
-  background: linear-gradient(to right,#fc636b 0,#ff6d92 60%,#fd9a00 100%);
+  background: linear-gradient(to right,#fc636b 0,#ff6d92 0%,#fd9a00 100%);
 }
 
 
