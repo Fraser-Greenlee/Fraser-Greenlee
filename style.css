@@ -1,11 +1,6 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
-  color: #555;
   margin: 0 auto;
-}
-
-header {
   background-color: #1565C0;
   background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, rgba(0, 0, 0, 0) 100%);
   background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
@@ -20,24 +15,17 @@ header {
   color: white;
 }
 
-header p {
+p {
   line-height: 1.5;
 }
 
-header img {
-  display: inline-block;
-  height: 120px;
-  vertical-align: top;
-  width: 120px;
-}
-
-header h1 {
+h1 {
   color: white;
   font-size: 2.5em;
   font-weight: 300;
 }
 
-header a {
+a {
   color: white;
 }
 
@@ -45,30 +33,6 @@ main {
   padding: 4em 1em;
   margin: 0 auto;
   max-width: 50em;
-}
-
-h1,
-h2,
-strong {
-  color: #333;
-}
-
-a {
-  color: #e81c4f;
-}
-
-h2 {
-  margin-top: 1em;
-  padding-top: 1em;
-}
-
-img {
-    width: 30px;
-}
-
-
-span a {
-    margin-right: 30px;
 }
 
 h1 {
